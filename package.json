@@ -1,7 +1,7 @@
 {
   "name": "second_user_refactor",
   "version": "1.0.0",
-  "description": "<%description%>",
+  "description": "<%=description=%>",
   "main": "index.js",
   "private": "<%=private=%>",
   "scripts": {
