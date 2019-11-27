@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@import "./layout";
+
+.btn
+  (@padding:37px 368px,@bgc:#0097ff,@radius:75px,@size:45px,@color:#fff,@width:960px) {
+  width: @width;
+  padding: @padding;
+  background-color: @bgc;
+  border-radius: @radius;
+  border: 1px solid @bgc;
+  font-size: @size;
+  color: @color;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.list(@direction:column) {
+  .flex(@direction);
+}
