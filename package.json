@@ -1,9 +1,9 @@
 {
   "name": "second_user_refactor",
   "version": "1.0.0",
-  "description": "<%= description =%>",
+  "description": "<%= description %>",
   "main": "index.js",
-  "private": "<%= private =%>",
+  "private": "<%= private %>",
   "scripts": {
     "commit": "git-cz",
     "build:pre-prod": "cross-env NODE_ENV=development webpack --mode production",
@@ -13,8 +13,8 @@
     "dll": "webpack --config webpack.dll.config.js"
   },
   "keywords": [],
-  "author": "<%= author =%>",
-  "license": "<%= license =%>",
+  "author": "<%= author %>",
+  "license": "<%= license >",
   "devDependencies": {
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
