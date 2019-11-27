@@ -1,8 +1,10 @@
 {
   "name": "second_user_refactor",
   "version": "1.0.0",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "<%description%>",
   "main": "index.js",
+  "private": "<%private%>",
+  "licenses": "<%license%>",
   "scripts": {
     "commit": "git-cz",
     "build:pre-prod": "cross-env NODE_ENV=development webpack --mode production",
@@ -12,7 +14,7 @@
     "dll": "webpack --config webpack.dll.config.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "<%author%>",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.6.0",
