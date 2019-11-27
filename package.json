@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "<%= description %>",
   "main": "index.js",
-  "private": "<%= private %>",
+  "private": <%= private %>,
   "scripts": {
     "commit": "git-cz",
     "build:pre-prod": "cross-env NODE_ENV=development webpack --mode production",
